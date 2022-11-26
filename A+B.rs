@@ -1,4 +1,4 @@
-// BOJ 1000. A+B
+// BOJ 1000 A+B
 
 use std::io;
 
