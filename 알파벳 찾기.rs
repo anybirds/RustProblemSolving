@@ -9,7 +9,7 @@ fn main() {
     let line = line.trim();
     let count = line.chars().count();
 
-    let mut ans = [-1; 'z' as usize - 'a' as usize];
+    let mut ans = [-1; 'z' as usize - 'a' as usize + 1];
     for (i, alphabet) in line.chars().rev().enumerate() {
         ans[alphabet as usize - 'a' as usize] = (count - i - 1) as i32;
     }
