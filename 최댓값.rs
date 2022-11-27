@@ -1,3 +1,5 @@
+// BOJ 2562 최댓값
+
 use std::io;
 
 fn main() {
