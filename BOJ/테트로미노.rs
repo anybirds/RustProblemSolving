@@ -1,3 +1,5 @@
+// BOJ 14500 테트로미노
+
 use std::io;
 use std::str::{FromStr, SplitWhitespace};
 
