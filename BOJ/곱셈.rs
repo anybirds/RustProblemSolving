@@ -1,3 +1,5 @@
+// BOJ 1629 곱셈
+
 use std::io;
 use std::str::{FromStr, SplitWhitespace};
 
@@ -35,5 +37,3 @@ fn main() {
     }
     print!("{ans}");
 }
-
-
